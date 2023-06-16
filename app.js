@@ -162,7 +162,7 @@ function validatePassword() {
         errorDisplay.textContent = "Password cannot be blank!";
         errorDisplay.style.display = "block";
         return;
-    } else if (value.length < 4) {
+    } else if (value.length < 12) {
         //passwordErrors.push("Passwords must be at least 12 characters long");
         errorDisplay.textContent = "Passwords must be at least 12 characters long";
         errorDisplay.style.display = "block";
